@@ -24,16 +24,16 @@
 		388D7B59225B4BEE00ADD55B /* jump.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = jump.caf; sourceTree = "<group>"; };
 		388D7B5B225B4CF000ADD55B /* jump.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = jump.aac; sourceTree = "<group>"; };
 		388D7B5D225B4E4300ADD55B /* zelda.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = zelda.aac; sourceTree = "<group>"; };
-		5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NinjaAttack/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AFD63F862036493600E08C66 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = NinjaAttack/GameViewController.swift; sourceTree = "<group>"; };
-		AFD63F882036497100E08C66 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = NinjaAttack/GameScene.swift; sourceTree = "<group>"; };
-		AFD63F8A203649B500E08C66 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = NinjaAttack/GameOverScene.swift; sourceTree = "<group>"; };
+		5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SuperMario/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFD63F862036493600E08C66 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = SuperMario/GameViewController.swift; sourceTree = "<group>"; };
+		AFD63F882036497100E08C66 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = SuperMario/GameScene.swift; sourceTree = "<group>"; };
+		AFD63F8A203649B500E08C66 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = SuperMario/GameOverScene.swift; sourceTree = "<group>"; };
 		AFD63F8D203649F800E08C66 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* SuperMario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NinjaAttack/Assets.xcassets; sourceTree = "<group>"; };
-		D2A5F20F1F4A9144005CD714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = NinjaAttack/Info.plist; sourceTree = "<group>"; };
-		D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = NinjaAttack/AppDelegate.swift; sourceTree = "<group>"; };
+		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SuperMario/Assets.xcassets; sourceTree = "<group>"; };
+		D2A5F20F1F4A9144005CD714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = SuperMario/Info.plist; sourceTree = "<group>"; };
+		D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SuperMario/AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 				AFD63F8D203649F800E08C66 /* background-music-aac.caf */,
 			);
 			name = Sounds;
-			path = NinjaAttack/Sounds;
+			path = SuperMario/Sounds;
 			sourceTree = "<group>";
 		};
 		D2A5F1F71F4A9143005CD714 = {
@@ -75,7 +75,7 @@
 				D2A5F2001F4A9144005CD714 /* SuperMario.app */,
 			);
 			name = Products;
-			path = NinjaAttack;
+			path = SuperMario;
 			sourceTree = "<group>";
 		};
 		D2A5F2021F4A9144005CD714 /* SuperMario */ = {
@@ -126,7 +126,7 @@
 				TargetAttributes = {
 					D2A5F1FF1F4A9144005CD714 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -187,7 +187,7 @@
 				D2A5F2081F4A9144005CD714 /* Base */,
 			);
 			name = Main.storyboard;
-			path = NinjaAttack;
+			path = SuperMario;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -312,13 +312,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8QW4FN24Y5;
-				INFOPLIST_FILE = "$(SRCROOT)/NinjaAttack/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SuperMario/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dreamly.supermario;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -331,12 +331,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8QW4FN24Y5;
-				INFOPLIST_FILE = "$(SRCROOT)/NinjaAttack/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SuperMario/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dreamly.supermario;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2A5F1FF1F4A9144005CD714"
-               BuildableName = "NinjaAttack.app"
-               BlueprintName = "NinjaAttack"
-               ReferencedContainer = "container:NinjaAttack.xcodeproj">
+               BuildableName = "SuperMario.app"
+               BlueprintName = "SuperMario"
+               ReferencedContainer = "container:SuperMario.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2A5F1FF1F4A9144005CD714"
-            BuildableName = "NinjaAttack.app"
-            BlueprintName = "NinjaAttack"
-            ReferencedContainer = "container:NinjaAttack.xcodeproj">
+            BuildableName = "SuperMario.app"
+            BlueprintName = "SuperMario"
+            ReferencedContainer = "container:SuperMario.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2A5F1FF1F4A9144005CD714"
-            BuildableName = "NinjaAttack.app"
-            BlueprintName = "NinjaAttack"
-            ReferencedContainer = "container:NinjaAttack.xcodeproj">
+            BuildableName = "SuperMario.app"
+            BlueprintName = "SuperMario"
+            ReferencedContainer = "container:SuperMario.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2A5F1FF1F4A9144005CD714"
-            BuildableName = "NinjaAttack.app"
-            BlueprintName = "NinjaAttack"
-            ReferencedContainer = "container:NinjaAttack.xcodeproj">
+            BuildableName = "SuperMario.app"
+            BlueprintName = "SuperMario"
+            ReferencedContainer = "container:SuperMario.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
