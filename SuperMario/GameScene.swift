@@ -44,28 +44,26 @@ class GameScene: SKScene {
   
   // 1
   let player = SKSpriteNode(imageNamed: "player")
-  var monstersDestroyed = 0
+//  How do we do counting...
+  var monstersDestroyed = 1
   
   override func didMove(to view: SKView) {
-    // 2
     backgroundColor = SKColor.white
-    // 3
-    player.position = CGPoint(x: size.width * 0.1, y: size.height * 0.5)
-    // 4
+//    Where is Mario supposed to be...
+    player.position = CGPoint(x: size.width, y: size.height * 0.5)
     addChild(player)
     
     physicsWorld.gravity = .zero
     physicsWorld.contactDelegate = self
     
-    run(SKAction.repeatForever(
+    run(SKAction.repeat(
       SKAction.sequence([
         SKAction.run(addMonster),
         SKAction.wait(forDuration: 1.0)
         ])
-    ))
+      ,count:1))
     
     let backgroundMusic = SKAudioNode(fileNamed: "zelda.aac")
-    backgroundMusic.autoplayLooped = true
     addChild(backgroundMusic)
   }
   
@@ -158,8 +156,9 @@ class GameScene: SKScene {
   
   func projectileDidCollideWithMonster(projectile: SKSpriteNode, monster: SKSpriteNode) {
     print("Hit")
+//    So we hit the monster and then what?
     projectile.removeFromParent()
-    monster.removeFromParent()
+
     
     monstersDestroyed += 1
     if monstersDestroyed > 30 {

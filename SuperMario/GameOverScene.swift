@@ -16,7 +16,8 @@ class GameOverScene: SKScene {
     label.text = message
     label.fontSize = 40
     label.fontColor = SKColor.black
-    label.position = CGPoint(x: size.width/2, y: size.height/2)
+//    Something about the size...
+    label.position = CGPoint(x: size.width/2, y: size.height)
     addChild(label)
     
     // 4
